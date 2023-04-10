@@ -1,0 +1,79 @@
+
+body {
+  margin: unset;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  display: grid;
+  place-items: center;
+}
+
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+}
+
+/*Font*/
+
+@font-face {
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*QR CODE*/
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 320px;
+  padding: 1.075em;
+  border-radius: 1.35em;
+  box-shadow: 0 1.6em 1.6em hsla(0, 0%, 0%, 0.05);
+  text-align: center;
+  margin: 1.075em;
+}
+
+img {
+  border-radius: 0.675em;
+}
+
+h1 {
+  font-size: 1.375rem;
+  line-height: 1.275;
+  margin-top: 1.1em;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  line-height: 1.3;
+  color: hsl(220, 15%, 55%);
+  margin: 1.075em;
+}
