@@ -46,6 +46,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 0.67rem;
 }
 
 
@@ -59,10 +60,6 @@ main {
   box-shadow: 0 1.6em 1.6em hsla(0, 0%, 0%, 0.05);
   text-align: center;
   margin: 1.075em;
-}
-
-img {
-  border-radius: 0.675em;
 }
 
 h1 {
